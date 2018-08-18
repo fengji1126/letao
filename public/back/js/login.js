@@ -37,3 +37,9 @@ $(function () {
 
 
 });
+
+$("#form").on("success.form.bv",function () {
+  e.preventDefault();
+  console.log("表单校验被阻止");
+  
+})
