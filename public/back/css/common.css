@@ -124,3 +124,9 @@ ol {
 .modal .modal-body {
   color: red;
 }
+/*表格*/
+.lt-main table.table th,
+.lt-main table.table td {
+  text-align: center;
+  vertical-align: middle;
+}
